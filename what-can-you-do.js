@@ -1,9 +1,5 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-// let input = prompt("Enter your age: "); 
-
-// console.log(input); 
-
 let age = Number(prompt("Enter your age: ")); // Number here allows for a range
 
 if (age <= 15) {
