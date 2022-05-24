@@ -12,6 +12,6 @@ else if (num1 % num3 === 0) {
     console.log("buzz");
 }
 
-if (num1 % num2 % num2 === 0) {
+if (num1 % num2 % 5 === 0) {
     console.log("Fizzbuzz");
 }
