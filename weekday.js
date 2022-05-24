@@ -21,4 +21,7 @@ else if (num1 === 6) {
 }
 else if (num1 === 7) {
     console.log("Sunday");
+} 
+else {
+    console.log("error");
 }
