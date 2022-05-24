@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')({sigint: true});
 let num1 = Number(prompt("Enter your earth weight: "));
 let num2 = Number(prompt("Enter number of desired planet: "));
-let myWeight = 128 
+
 // let operation = prompt("Your weight on ") 
 
 
@@ -27,6 +27,9 @@ else if ( num2 === 5) {
 
 else if ( num2 === 6) {
     console.log("Your weight on Neptune is " + num1 * 1.23); 
+}
+else {
+    console.log("Error");
 }
 
 
